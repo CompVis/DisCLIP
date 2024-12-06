@@ -1,0 +1,123 @@
+{
+    "index_to_descriptions": {
+        "0": [
+            "texture-less or smooth appearance",
+            "uniform crop growth",
+            "change in crop type or growth stage through the seasons",
+            "natural and irregular boundaries",
+            "green color during growing season",
+            "texture of crops such as rows of plants or scattered crops",
+            "farmland patterns",
+            "irregular shapes"
+        ],
+        "1": [
+            "dense vegetation",
+            "various shades of green",
+            "tree trunks and branches",
+            "random patterns",
+            "natural curves and lines"
+        ],
+        "2": [
+            "irregular shape and patchy texture",
+            "various species and densities of vegetation",
+            "natural randomness",
+            "no clear grid pattern",
+            "possibly rough terrain"
+        ],
+        "3": [
+            "straight or curved lines",
+            "man-made structures like lamps or signs",
+            "road markings",
+            "vehicles",
+            "pavement or asphalt texture",
+            "long and narrow shape",
+            "straight or curved path",
+            "presence of vehicles or road markings",
+            "lower vegetation or bare soil"
+        ],
+        "4": [
+            "larger size",
+            "more windows",
+            "loading docks or bay doors",
+            "roof with skylights or vents",
+            "surrounded by parking lots or roads",
+            "signage or logos",
+            "utilitarian architecture",
+            "security cameras",
+            "fences or gates"
+        ],
+        "5": [
+            "grass or herbaceous cover",
+            "randomly distributed shadows",
+            "no clear crop rows",
+            "presence of livestock or their trails"
+        ],
+        "6": [
+            "structured or patterned appearance",
+            "diversity in crop growth",
+            "less change in crop type or growth stage through the seasons",
+            "regular shape and uniform texture",
+            "single or few species of crops",
+            "structured and organized planting",
+            "clear grid pattern",
+            "typically flat terrain",
+            "rectangular or irregular patches",
+            "uniform crop texture",
+            "presence of agricultural infrastructure",
+            "vegetation with distinct growth patterns",
+            "organized crop rows",
+            "uniform crop height and color",
+            "lack of livestock or their trails",
+            "presence of irrigation systems",
+            "regularly patterned (e.g. squares or rectangles)",
+            "green or brown color",
+            "uniform texture",
+            "no water present"
+        ],
+        "7": [
+            "smaller size",
+            "fewer windows",
+            "porches or balconies",
+            "gable or hip roofs",
+            "landscaping or gardens",
+            "residential looking doors and windows",
+            "decorative architectural details",
+            "parking spaces or driveways",
+            "straight edges and lines",
+            "rectangular shapes",
+            "roofs",
+            "windows",
+            "doors",
+            " chimneys",
+            " texture of building materials such as bricks, concrete, wood, etc."
+        ],
+        "8": [
+            "water present",
+            "sinuous or curvilinear shape",
+            "varied width",
+            "shaded or reflective surface",
+            "narrower and longer shape",
+            "visible flow direction",
+            "often has a definite riverbank or channel",
+            "may have a visible current or ripples"
+        ],
+        "9": [
+            "larger area of water",
+            "no visible flow direction",
+            "often has a shoreline or coastline",
+            "may have waves or tides"
+        ]
+    },
+    "index_to_classname": {
+        "0": "annual crop land",
+        "1": "forest",
+        "2": "brushland or shrubland",
+        "3": "highway or road",
+        "4": "industrial buildings or commercial buildings",
+        "5": "pasture land",
+        "6": "permanent crop land",
+        "7": "residential buildings or homes or apartments",
+        "8": "river",
+        "9": "lake or sea"
+    }
+}

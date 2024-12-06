@@ -1,0 +1,439 @@
+{
+    "index_to_descriptions": {
+        "0": [
+            "patterns that wrap around the object in a continuous band",
+            "bands are typically uniform in width",
+            "bands are typically parallel to each other"
+        ],
+        "1": [
+            "large, irregularly-shaped patches",
+            "patches with soft or fuzzy edges",
+            "uneven distribution of patches",
+            "distinct, separate, and irregularly-shaped patches",
+            "abrupt color transitions",
+            "sharp edges or boundaries",
+            "irregular shapes",
+            "non-directional",
+            "varied color or texture",
+            "abrupt transition from one area to another",
+            "distinct boundaries"
+        ],
+        "2": [
+            "intricate patterns of crossed threads",
+            "raised or textured appearance",
+            " olmamnently visible lines of threads",
+            "intertwined strands",
+            "repeating patterns",
+            "structured design",
+            "interweaving strands",
+            "crossing fibers",
+            "variable width",
+            "alternating orientation"
+        ],
+        "3": [
+            "circular or oval shape",
+            "well-defined boundaries",
+            "uniform size and distribution",
+            "bright or reflective appearance",
+            "irregular shapes",
+            "round edges",
+            "no flat surfaces",
+            "translucent appearance"
+        ],
+        "4": [
+            "continuous surface with irregularities",
+            "uneven shape",
+            "no holes or gaps",
+            "gradual changes in elevation"
+        ],
+        "5": [
+            "squares or rectangles with equal width and height",
+            "checkerboard-like pattern",
+            "aligns with horizontal and vertical axes"
+        ],
+        "6": [
+            "thin, continuous threads",
+            "irregular pattern",
+            "delicate appearance",
+            "organic shape"
+        ],
+        "7": [
+            "sharp edges",
+            "linear or branching pattern",
+            "broken or fractured appearance",
+            "geometric shape",
+            "long, continuous lines or patterns",
+            "sharp, clear edges",
+            "uniform color on either side of the crack"
+        ],
+        "8": [
+            "overlapping hatching lines at different angles",
+            "diamond-like or irregular pattern",
+            "no alignment with horizontal or vertical axes",
+            "overlaying parallel lines",
+            "visible grid pattern",
+            "lines intersecting at different angles",
+            " diagonal lines",
+            "lines intersect at angles other than 90 degrees",
+            "overlapping lines"
+        ],
+        "9": [
+            "sharp edges",
+            "flat surfaces",
+            "regular patterns",
+            "reflective surfaces"
+        ],
+        "10": [
+            "discrete dots",
+            "uniform dot size",
+            "no connecting lines between dots",
+            "dots may vary greatly in size",
+            "dots may be irregularly shaped",
+            " dots may be more densely packed",
+            "dots may not have a clear central point"
+        ],
+        "11": [
+            "long, thin, and linear patterns",
+            "parallel or branching structures",
+            "smooth texture",
+            "directional orientation"
+        ],
+        "12": [
+            "small, rounded spots",
+            "spots with sharp edges",
+            "even distribution of spots",
+            "small, scattered marks or spots",
+            "irregular shapes",
+            "no clear edges or boundaries",
+            "small, rounded, and dispersed patterns",
+            "no preferred orientation",
+            "coarse texture",
+            "small, scattered, rounded, dark spots or marks",
+            "uniform background color",
+            "spots do not merge",
+            "small, scattered spots",
+            " rough and irregular texture",
+            "irregular shape"
+        ],
+        "13": [
+            "small rounded shape",
+            "speckled appearance",
+            "brownish-gray color"
+        ],
+        "14": [
+            "elongated shape",
+            "frilly or ruffled appearance",
+            "whitish or light-colored",
+            "ruffled edges",
+            "curly patterns",
+            "soft and delicate appearance"
+        ],
+        "15": [
+            "soft and semi-transparent fabric",
+            "flowy and lightweight",
+            "no visible folds or creases"
+        ],
+        "16": [
+            "regularly spaced horizontal and vertical lines",
+            "no diagonal lines",
+            "lines intersect perpendicularly"
+        ],
+        "17": [
+            "linear and deep markings or furrows",
+            "parallel patterns",
+            "smooth transitions between grooves",
+            "parallel lines or grooves",
+            "straight or slightly curved lines",
+            "lines tend to be uniform in width and spacing"
+        ],
+        "18": [
+            "hexagonal cells",
+            "regular pattern",
+            "cells are closed"
+        ],
+        "19": [
+            "repeating patterns of crossed stripes or bands",
+            "symmetrical and regular",
+            "lack of teardrop shape",
+            "more geometric in appearance"
+        ],
+        "20": [
+            "rows of interconnected loops",
+            "flat and smooth appearance",
+            "visible stitches or rows of yarn",
+            "fabric texture appears woven and continuous",
+            "threads or yarns are visible",
+            "pattern of interconnected loops"
+        ],
+        "21": [
+            "delicate, intricate patterns",
+            "scalloped or wavy edges",
+            "repeating floral motifs",
+            "light, airy texture"
+        ],
+        "22": [
+            "parallel lines or striations",
+            "uniform spacing between lines",
+            "lines are continuous and unbroken",
+            "lines follow a straight or curved path"
+        ],
+        "23": [
+            " swirling, irregular, and blended pattern",
+            "smooth gradation of colors",
+            "organic, wavy shapes",
+            "swirling or wavy pattern",
+            "colors or textures blend together",
+            "no clear boundaries between patterns"
+        ],
+        "24": [
+            "tangled and knotted texture",
+            "unorganized strands",
+            "lack of clear patterns"
+        ],
+        "25": [
+            "interconnected lines",
+            "grid-like pattern",
+            "no isolated dots",
+            "regularly arranged intersecting lines or threads",
+            "continuous pattern",
+            "no voids or holes",
+            "interconnected, grid-like pattern",
+            "smooth, continuous texture",
+            "no visible boundaries between mesh elements"
+        ],
+        "26": [
+            "teardrop-shaped motifs",
+            "intricate and curved",
+            "asymmetrical and irregular",
+            "more organic in appearance",
+            "teardrop or fig-shaped motifs",
+            "curved, abstract patterns",
+            "bold, vibrant colors",
+            "Symmetrical design",
+            "teardrop-shaped",
+            "well-defined center",
+            "sharp and pointed ends",
+            "distinctive shape symmetry"
+        ],
+        "27": [
+            "holes or gaps in the surface",
+            "regular or irregular pattern of openings",
+            " separation of material between holes",
+            "distinct edges around holes",
+            "irregular holes",
+            "holes are open",
+            "no distinct pattern",
+            "repeating pattern of holes or voids",
+            "holes are typically round or rectangular",
+            "material surrounding holes remains intact",
+            "small holes or voids",
+            "irregularly distributed",
+            "discontinuous pattern",
+            "small holes or gaps",
+            "irregular pattern",
+            "discrete marks",
+            "holes or voids in the surface",
+            "holes are usually regularly arranged",
+            "absence of raised elements"
+        ],
+        "28": [
+            "irregularly shaped cavities",
+            "deep holes",
+            " rough texture",
+            "small and rounded",
+            "uniform depth",
+            " smooth edges",
+            "isolated depressions"
+        ],
+        "29": [
+            "fabric with folds or creases",
+            "structured and textured appearance",
+            "sometimes stiff or rigid",
+            "folded or layered appearance",
+            "zigzag or wavy patterns",
+            "sharp transitions between folds",
+            "folded or accordion-like pattern",
+            " convictions or wrinkles",
+            "non-uniform spacing between folds",
+            "folds are typically raised or 3D-like",
+            "regular, parallel lines",
+            "even, repeating patterns",
+            "uniform direction of folds"
+        ],
+        "30": [
+            "uniformly-sized dots",
+            "dots are rounded and well-defined",
+            "dots are scattered randomly",
+            "dots may vary in size but have a clear central point"
+        ],
+        "31": [
+            "irregular shape",
+            "blurry or fuzzy boundaries",
+            "varied size and distribution",
+            "dull or matte appearance",
+            "larger, irregularly shaped, dark areas",
+            "background color is not uniform",
+            "dark areas may be connected",
+            "uniformly sized holes",
+            "smooth texture",
+            "holes are evenly distributed",
+            "rough texture",
+            "irregular holes or voids",
+            "transparency or translucency",
+            "connected or merged particle boundaries"
+        ],
+        "32": [
+            "irregular shape",
+            "varying depth",
+            " rough edges",
+            "uneven surface",
+            "circular or oval shape",
+            "clear boundaries",
+            "deeper than surrounding surface",
+            "uniform texture"
+        ],
+        "33": [
+            "discrete, non-overlapping texture",
+            "rough, irregular patterns",
+            "visible boundaries between scales"
+        ],
+        "34": [
+            "streaks or streak-like patterns",
+            "directional",
+            "uniform color or texture",
+            "loss of detail in a direction",
+            "gradual transition from one area to another"
+        ],
+        "35": [
+            "continued curved path",
+            "no crossing fibers",
+            "consistent width",
+            "uniform orientation"
+        ],
+        "36": [
+            "randomly scattered particles",
+            "distinct outlines of individual particles",
+            "particles appear isolated",
+            "uniform particle size"
+        ],
+        "37": [
+            "irregular shape",
+            "color similar to surrounding surface",
+            "no clear boundaries",
+            "uneven texture",
+            "irregular shapes",
+            "blurred edges",
+            "diffused colors"
+        ],
+        "38": [
+            "layered or tiered pattern",
+            "clear boundaries between layers",
+            "layers of different colors or textures"
+        ],
+        "39": [
+            "patterns that are typically narrower and more elongated",
+            " stripes do not wrap around the object",
+            "stripes can be angled or curved",
+            "parallel lines or bands",
+            "repeating pattern",
+            "continuous marks"
+        ],
+        "40": [
+            "regular and dense arrangement of raised elements",
+            "raised elements have a distinct shape (e.g. circles, squares)",
+            "elements are protruding from the surface"
+        ],
+        "41": [
+            "irregular shape",
+            "no well-defined center",
+            "soft and fluid curves",
+            "various colors blended together"
+        ],
+        "42": [
+            "pattern of lines resembling blood vessels",
+            "curved or wavy lines",
+            "lines tend to branch and merge"
+        ],
+        "43": [
+            "uneven texture",
+            "grid-like pattern",
+            "bumps or ridges",
+            "irregular shapes"
+        ],
+        "44": [
+            "threads or fibers visible",
+            "textured appearance",
+            "edges blurred or fuzzy",
+            "regular pattern",
+            "interlaced threads",
+            "smooth surface",
+            " parallel lines or stripes",
+            "regular patterns",
+            "uniform texture",
+            "visible threads or fibers",
+            "clear boundaries between colors",
+            "interlacing threads or lines",
+            "grid-like pattern",
+            "parallel edges"
+        ],
+        "45": [
+            "irregular, curved lines",
+            "uneven, chaotic patterns",
+            "various directions of folds"
+        ],
+        "46": [
+            "repeating pattern of diagonal lines",
+            " acute angles",
+            "non-parallel edges"
+        ]
+    },
+    "index_to_classname": {
+        "0": "banded",
+        "1": "blotchy",
+        "2": "braided",
+        "3": "bubbly",
+        "4": "bumpy",
+        "5": "chequered",
+        "6": "cobwebbed",
+        "7": "cracked",
+        "8": "crosshatched",
+        "9": "crystalline",
+        "10": "dotted",
+        "11": "fibrous",
+        "12": "flecked",
+        "13": "freckled",
+        "14": "frilly",
+        "15": "gauzy",
+        "16": "grid",
+        "17": "grooved",
+        "18": "honeycombed",
+        "19": "interlaced",
+        "20": "knitted",
+        "21": "lacelike",
+        "22": "lined",
+        "23": "marbled",
+        "24": "matted",
+        "25": "meshed",
+        "26": "paisley",
+        "27": "perforated",
+        "28": "pitted",
+        "29": "pleated",
+        "30": "polka-dotted",
+        "31": "porous",
+        "32": "potholed",
+        "33": "scaly",
+        "34": "smeared",
+        "35": "spiralled",
+        "36": "sprinkled",
+        "37": "stained",
+        "38": "stratified",
+        "39": "striped",
+        "40": "studded",
+        "41": "swirly",
+        "42": "veined",
+        "43": "waffled",
+        "44": "woven",
+        "45": "wrinkled",
+        "46": "zigzagged"
+    }
+}

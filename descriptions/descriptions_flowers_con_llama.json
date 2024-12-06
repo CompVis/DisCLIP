@@ -1,0 +1,668 @@
+{
+    "index_to_descriptions": {
+        "0": [
+            " solitary stem",
+            "umbrella-like leaf structure",
+            "fragrant, delicate, pale pink to deep pink flowers",
+            "low growing",
+            "oval shaped leaves",
+            "solitary flowers",
+            "delicate petals",
+            "delicate and pale pink flowers with five petals",
+            "non-thorny stem",
+            " lance-shaped leaves"
+        ],
+        "1": [
+            "thick, hard, and dark green leaves",
+            "pocket-shaped pouch at base of leaf",
+            "yellowish-green flowers",
+            "pouch-like modified leaves",
+            "small, greenish-yellow flowers",
+            "low-growing, spreading habit",
+            "leaves are hard and leathery"
+        ],
+        "2": [
+            "bell-shaped flowers",
+            "typically blue or white flowers",
+            "tall, upright stems",
+            "leaves are oval-shaped and pointed at tip",
+            "flower colors ranging from white to blue and purple",
+            "upright, clump-forming habit",
+            "smaller plant size",
+            "pale blue, white, or pink flowers",
+            "blue, white, or pink flowers",
+            "leaves are lance-shaped and toothed",
+            "heart-shaped leaves with toothed edges",
+            "tall, upright habit"
+        ],
+        "3": [
+            "pastel-colored flowers",
+            "fragrant flowers",
+            "delicate, tendrilled vines"
+        ],
+        "4": [
+            "bright yellow or orange flowers",
+            "strong, pungent scent",
+            "lobed or toothed leaves",
+            "bushy plant with strong, pungent scent",
+            "leaves are fern-like and deeply divided",
+            "bright yellow to red flowers",
+            "larger, more showy blooms",
+            "coarser, more deeply lobed leaves"
+        ],
+        "5": [],
+        "6": [
+            "thin, soft, and light green leaves",
+            "no pouch at base of leaf",
+            "white flowers with purple markings",
+            "purple or white color",
+            "thin, delicate petals",
+            "long, thin stem"
+        ],
+        "7": [],
+        "8": [
+            "tall stem",
+            "helmet-shaped flowers",
+            "dark purple-blue flowers",
+            "toxic"
+        ],
+        "9": [
+            "large, spherical flower heads",
+            "thistle-like leaves",
+            "prickly stems and leaves"
+        ],
+        "10": [
+            "tall, upright spikes of flowers",
+            "flowers with ruffled, lip-shaped petals",
+            "leaves are lance-shaped and pointed",
+            "irregularly shaped flower",
+            "dragon-head shape",
+            "tall stalk with multiple flowers",
+            "various colors including yellow, orange, red, white, and purple"
+        ],
+        "11": [
+            "yellow or white flowers in clusters",
+            "heart-shaped or triangular leaves",
+            "hairy stem"
+        ],
+        "12": [
+            "large, showy, pink or purple flowers",
+            "tall, slender stems",
+            "oval-shaped leaves are silver-green in color"
+        ],
+        "13": [],
+        "14": [],
+        "15": [
+            "large, showy, and spherical flowers",
+            "leaves that are deeply lobed or toothed",
+            "tall stems"
+        ],
+        "16": [],
+        "17": [
+            "tall stem",
+            " trumpet-shaped flowers",
+            "pure white petals",
+            "yellow or white throat"
+        ],
+        "18": [
+            "smooth stem",
+            "bell-shaped blue or white flowers",
+            "inflated seed pods"
+        ],
+        "19": [
+            "large white spathe-like petals",
+            "yellow spadix",
+            "leaves are dark green and glossy"
+        ],
+        "20": [
+            "bright orange or red flowers",
+            "shorter stem",
+            " funnel-shaped flowers",
+            " clusters of flowers",
+            " bright red or orange flowers",
+            "narrow, strap-like leaves",
+            "bulbous base"
+        ],
+        "21": [
+            "small, delicate",
+            "pincushion-like center",
+            "light blue or pink petals",
+            "ferny foliage",
+            "more compact, button-like flower head",
+            "larger, pink or white flowers"
+        ],
+        "22": [
+            "checkered or mottled pattern on petals",
+            "nodding or bell-shaped flowers",
+            "multiple flowers on stem",
+            "stem is often branched"
+        ],
+        "23": [
+            "bright red flowers",
+            "long, narrow leaves",
+            "typically upright growth habit",
+            "red or pink color",
+            "flower shape",
+            "stamen or pistils visible",
+            "stem or leaves present"
+        ],
+        "24": [],
+        "25": [
+            "small to medium size",
+            "delicate stem",
+            "papel-like petals",
+            "red color"
+        ],
+        "26": [
+            "three ostrich feathers",
+            "blue ribbon or coronet",
+            "gold or yellow color",
+            "feathers are long and curved"
+        ],
+        "27": [
+            "flowers are typically blue or purple",
+            "leaves are basal, strap-like, and opposite",
+            "lacking a stem or having a very short stem",
+            "flowers have 4 or 5 petals"
+        ],
+        "28": [
+            "thorny, tough, green leaves",
+            "tight, compact bud",
+            "stems are typically thick and fleshy"
+        ],
+        "29": [
+            "tall stem",
+            "deeply lobed leaves",
+            "flowers in clusters",
+            "frilly petals"
+        ],
+        "30": [],
+        "31": [
+            "large, showy, pink, purple, or white flowers in clusters",
+            "leaves are oval-shaped and oppositely arranged",
+            "tall and upright",
+            "panicles of small, fragrant flowers",
+            " lance-shaped leaves"
+        ],
+        "32": [
+            "delicate, lacy, or fern-like foliage",
+            "small, blue or white flowers",
+            "umbrella-like flower head"
+        ],
+        "33": [
+            "daisy-like flower",
+            "white or yellow petals",
+            "yellow center",
+            "erect stem",
+            "violet-blue to purple flowers",
+            "radiate, daisy-like flowers",
+            "multiple, smaller flowers",
+            "stiff, erect stem"
+        ],
+        "34": [
+            "blue or white flowers in a conical shape",
+            "spiny, intense blue stems",
+            "finely divided, fern-like leaves"
+        ],
+        "35": [],
+        "36": [
+            "tubular or bell-shaped flowers",
+            "colors often pastel or pale",
+            "stems usually sticky or resinous",
+            "leaves small and needle-like",
+            "daisy-like flowers",
+            "tall stem with no hairs",
+            "leaves with waxy texture",
+            "tubular flowers",
+            "brightly colored",
+            "long narrow leaves"
+        ],
+        "37": [
+            "umbrella-like foliage",
+            "white or pink flowers in clusters",
+            "tall and slender stem"
+        ],
+        "38": [
+            "cup-shaped flower",
+            "curved petals",
+            "single upright stem",
+            "typically orange-yellow in color"
+        ],
+        "39": [],
+        "40": [
+            "white, pink, or yellow flowers",
+            " solitary, large flower",
+            "stem can be decumbent or erect",
+            "leaves are serrated",
+            "yellow or white petals",
+            "center of flower is dark",
+            "petals are narrow and pointed",
+            "stem is slender",
+            "pink or purple flowers with a yellow center",
+            "delicate petals",
+            "bushy and compact growth habit"
+        ],
+        "41": [],
+        "42": [
+            "tall, upright flower stem",
+            "flowers are showy and brightly colored",
+            " Strap-like leaves",
+            "flowers are funnel-shaped or trumpet-shaped",
+            "long, strap-like leaves",
+            "flowers often white, yellow, or orange",
+            "showy, trumpet-shaped flowers",
+            "6 petals",
+            "long, sword-shaped leaves"
+        ],
+        "43": [],
+        "44": [
+            " trumpet-shaped flowers",
+            "dark blue or purple flowers",
+            "tall stems",
+            "narrow leaves"
+        ],
+        "45": [
+            "tall, erect stem",
+            "flower clusters at the end of stems",
+            "flowers often in shades of yellow, white, or pink",
+            "leaves are narrow and pointed"
+        ],
+        "46": [
+            "bright yellow to orange flowers",
+            "strong, pungent scent",
+            "finely divided leaves"
+        ],
+        "47": [
+            "small to medium-sized flowers with 5 petals",
+            "shiny, waxy leaves",
+            "short to medium stems",
+            "bright yellow petals",
+            "glossy leaves",
+            "thick stem"
+        ],
+        "48": [
+            "white petals with a yellow center",
+            "large flowers",
+            "tall and slender stem",
+            "white flowers with many petals",
+            "dark green, lance-shaped leaves",
+            "stem with milky sap"
+        ],
+        "49": [
+            "bright yellow flowers",
+            " jagged or toothed leaves",
+            "hollow stem"
+        ],
+        "50": [
+            "trumpet-shaped flowers",
+            "heart-shaped leaves",
+            "stem and leaves are soft and hairy",
+            "various colors including pink, purple, red, and white"
+        ],
+        "51": [
+            "heart-shaped or oval leaves",
+            "five petals with different colors and patterns",
+            "stem and leaves with fine hairs"
+        ],
+        "52": [],
+        "53": [
+            "large and bright yellow petals",
+            "tall stem",
+            "dark center",
+            "large flower head",
+            "large flower size",
+            "bright yellow petals",
+            "thick and sturdy stem"
+        ],
+        "54": [
+            "rounded leaves with a wrinkled texture",
+            "showy, funnel-shaped flowers",
+            "stems are slender and succulent",
+            "leaves are less divided or more rounded",
+            "stems are more herbaceous and succulent",
+            "flowers often have 2 upper petals and 3 lower petals that are bilaterally symmetrical"
+        ],
+        "55": [
+            "red flowers",
+            "cup-shaped flowers",
+            "tall stem",
+            "leaves alternating on stem"
+        ],
+        "56": [
+            "flowers white or pink",
+            "four-petaled",
+            "tall and slender stems",
+            "leaves lance-shaped"
+        ],
+        "57": [
+            "leaves are typically more deeply lobed or divided",
+            "stems are often more woody and brittle",
+            "flowers have 5 petals that are radially symmetrical"
+        ],
+        "58": [
+            "large and showy flowers",
+            "blooms in various orange shades",
+            "petals are broad and rounded",
+            "stem is thicker and stronger"
+        ],
+        "59": [],
+        "60": [
+            "white or yellowish flowers",
+            "heart-shaped leaves",
+            "rhizomatous base"
+        ],
+        "61": [
+            "white or pink flowers",
+            "saucer-shaped flowers",
+            "delicate stem",
+            "compound leaves",
+            "delicate, cup-shaped flowers",
+            "multiple rows of petals",
+            "tall, slender stems",
+            "leaves are trifoliate or ternate"
+        ],
+        "62": [
+            "smaller and darker center",
+            "bright yellow petals with dark centers",
+            "shorter stem",
+            "leaves are hairy and lance-shaped"
+        ],
+        "63": [
+            "silvery-gray foliage",
+            "bushy shape",
+            "small yellow flowers"
+        ],
+        "64": [
+            "orange-yellow petals",
+            "\u092a\u0924(shaped) leaves with a waxy texture",
+            "slender stem",
+            "shiny green leaves",
+            "delicate stem",
+            "cup-shaped orange flowers",
+            "no thorns"
+        ],
+        "65": [],
+        "66": [],
+        "67": [],
+        "68": [
+            " cluster of stems",
+            "lance-shaped leaves",
+            "daisy-like flowers with white petals and yellow centers",
+            "daisy-like flowers",
+            "single row of petals",
+            "stem is hairy",
+            "leaves are simple and alternate",
+            "delicate petals",
+            "cup-shaped flowers",
+            "tall stem"
+        ],
+        "69": [
+            "large size",
+            "thick stem",
+            "cup-shaped petals",
+            "yellow or orange color",
+            "yellow flowers with 4 petals",
+            "lobed or deeply cut leaves",
+            "tall, shrub-like stem"
+        ],
+        "70": [
+            "daisy-like flowers with white, pink, or yellow petals",
+            "narrow, pointed leaves",
+            "taller stems",
+            "petals with stripes or markings",
+            "smaller flower size",
+            "more delicate stem and leaves"
+        ],
+        "71": [],
+        "72": [
+            "rounded leaves",
+            "leaves typically floating or on surface",
+            "flowers often white or yellow",
+            "flowers have many petals"
+        ],
+        "73": [],
+        "74": [
+            "thorny stem",
+            "greenish-yellow flowers",
+            "oval or round fruit with thorns"
+        ],
+        "75": [
+            "trumpet-shaped flowers",
+            "heart-shaped leaves",
+            "tendrils or climbing habit"
+        ],
+        "76": [
+            "tendrils present",
+            "complex flowers with a ring of filaments",
+            " Lobed or parted leaves"
+        ],
+        "77": [
+            "leaves are often upright and emergent",
+            "leaves are more elongated",
+            "flowers often pink or white",
+            "flowers have fewer petals"
+        ],
+        "78": [],
+        "79": [],
+        "80": [
+            "yellow or pink color",
+            "thick, waxy petals",
+            "bushy shape"
+        ],
+        "81": [
+            "no tendrils",
+            " bell-shaped or urn-shaped flowers",
+            "compound leaves",
+            "delicate, bell-shaped flowers",
+            "climbing habit"
+        ],
+        "82": [
+            "large, showy flowers with prominent stamens",
+            "broad, rounded leaves",
+            " erect or shrub-like habit",
+            "large showy flowers",
+            " funnel-shaped",
+            "thick stems",
+            "heart-shaped leaves",
+            "prominent stamens"
+        ],
+        "83": [
+            "delicate, bell-shaped flowers",
+            "5 petals with spurs",
+            " leaflets in groups of 3"
+        ],
+        "84": [
+            "showy pink flowers with five petals",
+            "thorny stem",
+            " succulent leaves"
+        ],
+        "85": [
+            "large, showy, pink or white flowers",
+            " Maple-like leaves",
+            "tall, upright stems",
+            "thick and rigid stems",
+            "larger in size",
+            "leaves have 3-5 lobes",
+            "flowers are larger and showier"
+        ],
+        "86": [],
+        "87": [],
+        "88": [
+            "round or oval leaves",
+            "dark green color",
+            "stem with tiny white flowers"
+        ],
+        "89": [
+            "large, showy, Iris-like flowers",
+            "sturdy, erect stems",
+            "banana-like leaves"
+        ],
+        "90": [
+            "bulbous base",
+            "showy, funnel-shaped flowers",
+            "leaves often shorter and more narrow than sword lily"
+        ],
+        "91": [
+            "red, pink, or purple flowers shaped like a lip",
+            "toothed and oval-shaped leaves",
+            "square stem"
+        ],
+        "92": [
+            "epiphytic growth habit",
+            "small, spherical, greenish-gray stems",
+            "no leaves",
+            "tiny, star-shaped flowers"
+        ],
+        "93": [],
+        "94": [
+            "thorny stems",
+            "climbing habit",
+            "brightly colored papery bracts",
+            "small white flowers"
+        ],
+        "95": [],
+        "96": [
+            "hairy stems and leaves",
+            "smaller in size",
+            "leaves are rounded at the tip",
+            "flowers are smaller and more delicate"
+        ],
+        "97": [
+            "low-growing and spreading",
+            "trumpet-shaped flowers",
+            "narrow, pointed leaves",
+            "tubular flowers",
+            "purple or pink flowers",
+            "spreading habit",
+            "oval-shaped leaves",
+            "small, linear leaves",
+            "stiff and wiry stems",
+            "small, blue or purple flowers",
+            "can be invasive",
+            "no tendrils or spreading habit",
+            "small, purple flowers",
+            "narrow, dark green leaves",
+            "low-growing, spreading habit",
+            "trumpet-shaped",
+            "green stems",
+            " lance-shaped leaves",
+            "smaller flowers"
+        ],
+        "98": [
+            " colorful flowers, but not bright red",
+            "thick, waxy leaves",
+            "typically rosette-forming growth habit"
+        ],
+        "99": [],
+        "100": [
+            "trumpet-shaped flowers",
+            "vines or climbing habit",
+            "pinnately compound leaves"
+        ],
+        "101": []
+    },
+    "index_to_classname": {
+        "0": "pink primrose",
+        "1": "hard-leaved pocket orchid",
+        "2": "canterbury bells",
+        "3": "sweet pea",
+        "4": "english marigold",
+        "5": "tiger lily",
+        "6": "moon orchid",
+        "7": "bird of paradise",
+        "8": "monkshood",
+        "9": "globe thistle",
+        "10": "snapdragon",
+        "11": "colt's foot",
+        "12": "king protea",
+        "13": "spear thistle",
+        "14": "yellow iris",
+        "15": "globe-flower",
+        "16": "purple coneflower",
+        "17": "peruvian lily",
+        "18": "balloon flower",
+        "19": "giant white arum lily",
+        "20": "fire lily",
+        "21": "pincushion flower",
+        "22": "fritillary",
+        "23": "red ginger",
+        "24": "grape hyacinth",
+        "25": "corn poppy",
+        "26": "prince of wales feathers",
+        "27": "stemless gentian",
+        "28": "artichoke",
+        "29": "sweet william",
+        "30": "carnation",
+        "31": "garden phlox",
+        "32": "love in the mist",
+        "33": "mexican aster",
+        "34": "alpine sea holly",
+        "35": "ruby-lipped cattleya",
+        "36": "cape flower",
+        "37": "great masterwort",
+        "38": "siam tulip",
+        "39": "lenten rose",
+        "40": "barbeton daisy",
+        "41": "daffodil",
+        "42": "sword lily",
+        "43": "poinsettia",
+        "44": "bolero deep blue",
+        "45": "wallflower",
+        "46": "marigold",
+        "47": "buttercup",
+        "48": "oxeye daisy",
+        "49": "common dandelion",
+        "50": "petunia",
+        "51": "wild pansy",
+        "52": "primula",
+        "53": "sunflower",
+        "54": "pelargonium",
+        "55": "bishop of llandaff",
+        "56": "gaura",
+        "57": "geranium",
+        "58": "orange dahlia",
+        "59": "pink-yellow dahlia",
+        "60": "cautleya spicata",
+        "61": "japanese anemone",
+        "62": "black-eyed susan",
+        "63": "silverbush",
+        "64": "californian poppy",
+        "65": "osteospermum",
+        "66": "spring crocus",
+        "67": "bearded iris",
+        "68": "windflower",
+        "69": "tree poppy",
+        "70": "gazania",
+        "71": "azalea",
+        "72": "water lily",
+        "73": "rose",
+        "74": "thorn apple",
+        "75": "morning glory",
+        "76": "passion flower",
+        "77": "lotus lotus",
+        "78": "toad lily",
+        "79": "anthurium",
+        "80": "frangipani",
+        "81": "clematis",
+        "82": "hibiscus",
+        "83": "columbine",
+        "84": "desert-rose",
+        "85": "tree mallow",
+        "86": "magnolia",
+        "87": "cyclamen",
+        "88": "watercress",
+        "89": "canna lily",
+        "90": "hippeastrum",
+        "91": "bee balm",
+        "92": "ball moss",
+        "93": "foxglove",
+        "94": "bougainvillea",
+        "95": "camellia",
+        "96": "mallow",
+        "97": "mexican petunia",
+        "98": "bromelia",
+        "99": "blanket flower",
+        "100": "trumpet creeper",
+        "101": "blackberry lily"
+    }
+}

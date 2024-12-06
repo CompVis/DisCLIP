@@ -1,0 +1,61 @@
+{
+    "index_to_descriptions": {
+        "0": [
+            "large, open fields",
+            "straight rows",
+            "different colors for different crops"
+        ],
+        "1": [
+            "a large area of trees",
+            "green leaves"
+        ],
+        "2": [
+            "an area of land with low-growing plants",
+            "little or no grass",
+            "dry conditions"
+        ],
+        "3": [
+            "a long, straight, or gently curved line",
+            "typically has a smooth, paved surface"
+        ],
+        "4": [
+            "evidence of human activity"
+        ],
+        "5": [
+            "green or brown vegetation",
+            "uninterrupted spaces"
+        ],
+        "6": [
+            "large, rectangular fields",
+            "straight rows of crops",
+            "irrigation systems",
+            "green vegetation"
+        ],
+        "7": [
+            "man-made structures",
+            "typically have a rectangular or square shape",
+            "may be clustered together in groups"
+        ],
+        "8": [
+            "a long, thin line of water",
+            "may be winding or straight",
+            "may be bordered by vegetation"
+        ],
+        "9": [
+            "large body of water",
+            "typically blue or green in color"
+        ]
+    },
+    "index_to_classname": {
+        "0": "annual crop land",
+        "1": "forest",
+        "2": "brushland or shrubland",
+        "3": "highway or road",
+        "4": "industrial buildings or commercial buildings",
+        "5": "pasture land",
+        "6": "permanent crop land",
+        "7": "residential buildings or homes or apartments",
+        "8": "river",
+        "9": "lake or sea"
+    }
+}

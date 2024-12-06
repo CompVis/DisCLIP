@@ -1,0 +1,231 @@
+{
+    "index_to_descriptions": {
+        "0": [],
+        "1": [
+            "muscular build",
+            "broad chest",
+            "well-defined muzzle",
+            "rose or pendant ears",
+            "short, harsh coat",
+            " sturdy and compact build",
+            "floppy ears",
+            "tail often carried high",
+            "coat variety: brindle, fawn, white",
+            "stocky build",
+            "strong underjaw",
+            "short tail",
+            "rose or half-prick ears"
+        ],
+        "2": [
+            "muscular athletic build",
+            "narrow chest",
+            "rose or half-prick ears",
+            "tail often carried low",
+            "coat variety: solid, fawn, brindle",
+            "muscular, athletic build",
+            "short, smooth coat",
+            "flat, wrinkled face",
+            "rose-shaped ears",
+            "long, tapered tail"
+        ],
+        "3": [
+            "shorter legs",
+            "wrinkled skin",
+            "droopy ears",
+            "shorter, more rounded muzzle",
+            "stockier body"
+        ],
+        "4": [
+            "floppy ears",
+            "longer legs",
+            "pointed muzzle",
+            "curved tail",
+            "slimmer body"
+        ],
+        "5": [],
+        "6": [
+            "pointed face",
+            "ear-tufts",
+            "white paws",
+            "pointed coat pattern",
+            "pointed coat pattern with white 'gloves' on paws",
+            "white patch on forehead",
+            "medium-length coat"
+        ],
+        "7": [
+            "black coat",
+            "golden or copper eyes",
+            "medium-sized muscular body",
+            "short, fine coat"
+        ],
+        "8": [
+            "muscular build",
+            "short, smooth coat",
+            " distinctive underbite",
+            "relatively long tail",
+            "floppy ears"
+        ],
+        "9": [
+            "sturdy build",
+            "broad face",
+            "short, dense coat",
+            "wide range of coat colors and patterns",
+            "short, rounded ears",
+            "wide-set eyes"
+        ],
+        "10": [
+            "large eyes",
+            "rounded head",
+            "short snout",
+            "pointed ears"
+        ],
+        "11": [],
+        "12": [
+            "sturdy build",
+            "shorter, more rounded muzzle",
+            "long, hanging ears",
+            "wavy, medium-length coat",
+            "medium size",
+            "feathery ears",
+            "square-shaped muzzle",
+            "long, wavy coat",
+            " floppy ears"
+        ],
+        "13": [
+            "athletic build",
+            "longer, more pointed muzzle",
+            "feathery, long tail",
+            "flat, short coat"
+        ],
+        "14": [],
+        "15": [],
+        "16": [
+            "long, silky, and curly coat",
+            "flat face",
+            "dark eyes",
+            "long ears",
+            "small size"
+        ],
+        "17": [],
+        "18": [],
+        "19": [
+            "large size",
+            "thick double coat",
+            "lion-like mane",
+            "black mask on face"
+        ],
+        "20": [],
+        "21": [
+            "longer snout",
+            " Erect ears",
+            "muscular body",
+            "less prominent eyes"
+        ],
+        "22": [
+            "large size",
+            "thick, water-resistant coat",
+            "broad head",
+            "small ears",
+            "web V\u0161ech paws"
+        ],
+        "23": [
+            "long fur",
+            "flat face",
+            "snub nose",
+            " stocky build",
+            "various colors and patterns"
+        ],
+        "24": [],
+        "25": [],
+        "26": [
+            "pointed coat pattern with lighter face, legs, and belly",
+            "no white 'gloves' on paws",
+            "soft and silky coat",
+            "muscular build",
+            "medium-length coat with a soft and silky texture",
+            " variating point colors",
+            " nocso restrictive point colors on the face"
+        ],
+        "27": [
+            "slender build",
+            "thick, plush coat",
+            "wedge-shaped head",
+            "large, wide-set ears",
+            "greenish-blue eyes"
+        ],
+        "28": [],
+        "29": [],
+        "30": [
+            "short, compact body",
+            "short, dense coat",
+            "bearded face",
+            " erect ears",
+            "short, curved tail"
+        ],
+        "31": [],
+        "32": [
+            "pointed ears",
+            "slender body",
+            "short, fine coat in a cream base color with a pointed pattern",
+            "blue eyes"
+        ],
+        "33": [],
+        "34": [
+            " athletic build",
+            "narrower chest",
+            "flat skull",
+            "rose or half-prick ears",
+            "short, smooth coat"
+        ],
+        "35": [
+            "single-layer coat",
+            " Rectangle-shaped head",
+            "V-shaped ears",
+            "medium size",
+            "hypnotic eyes",
+            "silky texture",
+            "squared muzzle",
+            "wheaten color"
+        ],
+        "36": []
+    },
+    "index_to_classname": {
+        "0": "Abyssinian",
+        "1": "american bulldog",
+        "2": "american pit bull terrier",
+        "3": "basset hound",
+        "4": "beagle",
+        "5": "Bengal",
+        "6": "Birman",
+        "7": "Bombay",
+        "8": "boxer",
+        "9": "British Shorthair",
+        "10": "chihuahua",
+        "11": "Egyptian Mau",
+        "12": "english cocker spaniel",
+        "13": "english setter",
+        "14": "german shorthaired",
+        "15": "great pyrenees",
+        "16": "havanese",
+        "17": "japanese chin",
+        "18": "keeshond",
+        "19": "leonberger",
+        "20": "Maine Coon",
+        "21": "miniature pinscher",
+        "22": "newfoundland",
+        "23": "Persian",
+        "24": "pomeranian",
+        "25": "pug",
+        "26": "Ragdoll",
+        "27": "Russian Blue",
+        "28": "saint bernard",
+        "29": "samoyed",
+        "30": "scottish terrier",
+        "31": "shiba inu",
+        "32": "Siamese",
+        "33": "Sphynx",
+        "34": "staffordshire bull terrier",
+        "35": "wheaten terrier",
+        "36": "yorkshire terrier"
+    }
+}

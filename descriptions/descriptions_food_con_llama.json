@@ -1,0 +1,701 @@
+{
+    "index_to_descriptions": {
+        "0": [
+            "crust top",
+            "golden brown color",
+            "circular shape",
+            " Overrides fruit/ filling visible from top"
+        ],
+        "1": [
+            "curved shape",
+            "shorter bones",
+            "meat is leaned back towards the spine",
+            " fewer bones per rack",
+            "more tender and lean meat"
+        ],
+        "2": [],
+        "3": [
+            "thinly sliced raw beef",
+            "green leaves or arugula",
+            "shaved parmesan cheese",
+            "drizzle of olive oil or balsamic glaze",
+            "thinly sliced",
+            "raw interior visible",
+            "arranged in a decorative pattern",
+            "often served with arugula or shavings",
+            "thinly sliced and arranged in a pattern",
+            "red or pink color",
+            "cupped or curled shape of slices",
+            "often served with arugula or shaved parmesan",
+            "thin slices",
+            "raw or lightly cured",
+            "uniform red color",
+            "lack of crust or browning",
+            "often served with garnishes",
+            "arranged in a pattern on a plate",
+            "often served with arugula, shaved parmesan, and a lemon vinaigrette dressing",
+            "Italian style presentation"
+        ],
+        "4": [
+            "raw meat texture",
+            "red or pink color",
+            "cubed or minced shape",
+            "garnishes like onion or egg"
+        ],
+        "5": [
+            "deep red/pink color",
+            "beets as main ingredient",
+            "often has goat cheese",
+            "walnuts or other nuts",
+            "mixed greens",
+            "deep red or pink color",
+            "leafy greens",
+            "cubed or sliced beets",
+            "crumbly goat cheese or similar toppings"
+        ],
+        "6": [
+            "square-shaped fried dough pastry",
+            "covered in powdered sugar",
+            "typically light brown or white in color",
+            "usually served in a group of 3 or more",
+            "square shape",
+            "deep-fried and covered in powdered sugar",
+            "typically served in sets of three"
+        ],
+        "7": [],
+        "8": [
+            "brownish color",
+            "irregular shape",
+            "no visible crust",
+            "\u53ef\u80fd\u6709 nuts or dried fruits on top",
+            "rectangular or square shape",
+            "various toppings",
+            "darker color",
+            "dense and chunky texture",
+            "golden brown color",
+            "chunky texture",
+            "may have raisins or nuts scattered on top",
+            "may have a crispy edge",
+            " irregular shape",
+            "crusty top",
+            " chunks of bread visible"
+        ],
+        "9": [],
+        "10": [
+            "toasted bread as base",
+            "olive oil and garlic presence",
+            "various toppings such as tomatoes, basil, cheese, but not necessarily arranged in a symmetrical pattern",
+            " Toasted bread",
+            "tomatoes",
+            "basil",
+            "mozzarella cheese",
+            "toasted bread",
+            "diced tomatoes",
+            "basil leaves",
+            "fresh mozzarella",
+            "balsamic glaze or olive oil drizzle"
+        ],
+        "11": [
+            "croutons",
+            "parmesan cheese",
+            "romaine lettuce",
+            "anchovy or anchovy-like dressing",
+            "light brown/beige color",
+            "leafy greens",
+            "light brown or creamy dressing",
+            "green leaves",
+            " protein source (chicken, bacon, etc.) on top"
+        ],
+        "12": [
+            "cylindrical shape",
+            "fried pastry shell",
+            "sweet ricotta filling",
+            "white or colored sprinkles on top"
+        ],
+        "13": [
+            "presence of sliced tomatoes",
+            "presence of mozzarella cheese",
+            " arrangement of ingredients in a symmetrical pattern",
+            " basil leaves on top"
+        ],
+        "14": [
+            "orange-brown color",
+            " Rectangular or cylindrical shape",
+            "Frosting on top",
+            "Decorations like nuts or carrots"
+        ],
+        "15": [
+            "pieces of fish are larger",
+            "mixed with onions and/or other vegetables",
+            " mango, avocado, or other non-traditional ingredients",
+            " mehr liquid due to marination"
+        ],
+        "16": [
+            "uniform creamy color",
+            "smooth surface",
+            "baked in a circular shape",
+            "edges are curved or angled",
+            "can have fruit or sauce toppings",
+            "uniform cheesecake texture",
+            "often has a crust at the bottom",
+            "typically round in shape"
+        ],
+        "17": [
+            "assortment of different cheeses with varying colors and textures",
+            "accompanied by crackers, garnishes, or grapes",
+            "items are arranged in a decorative pattern",
+            "cheeses have different shapes and sizes"
+        ],
+        "18": [
+            "yellowish-orange sauce",
+            "pieces of chicken",
+            "steamed rice or bread nearby",
+            "various spices or herbs"
+        ],
+        "19": [
+            "tortilla folded in half",
+            "melted cheese on top",
+            "visible chicken shreds inside"
+        ],
+        "20": [
+            "bone and skin structure visible",
+            "feathers or feather remnants",
+            " wing shape",
+            "brown or golden color"
+        ],
+        "21": [
+            "dense and fluffy texture",
+            "layered or tiered structure",
+            "frosting on top",
+            "cake stand or plate"
+        ],
+        "22": [
+            "light and airy texture",
+            " rounded or cylindrical shape",
+            "whipped cream or dollop on top",
+            "served in individual cups or glasses",
+            "light brown or dark brown color",
+            "smooth texture",
+            " stiff peaks or swirls on top",
+            "may have chocolate shavings or nuts on top",
+            "brown or dark color",
+            "whipped cream on top",
+            "cup or glass container"
+        ],
+        "23": [],
+        "24": [
+            "white or creamy color",
+            "chunky texture",
+            "bits of clams or potatoes",
+            "posibility of bacon or other garnishes",
+            "creamy, thick liquid",
+            "white or apparent cream color",
+            "mixed with vegetables and clams",
+            "served in a bowl"
+        ],
+        "25": [],
+        "26": [
+            "lump crab meat",
+            "irregular shape",
+            "golden brown color",
+            "crunchy exterior",
+            "patty shape",
+            "brownish-red color",
+            "lumpy texture"
+        ],
+        "27": [
+            "round and flat shape",
+            "golden-brown color on top",
+            "smooth and creamy texture",
+            "small serving size"
+        ],
+        "28": [],
+        "29": [
+            "small and individual portions",
+            "various toppings such as cream, chocolate, or fruits",
+            "can be decorated with different colors and designs",
+            "domed shape",
+            "decorations on top",
+            "various frosting types",
+            "larger size",
+            " wrapper or liner around base"
+        ],
+        "30": [
+            "oval shape",
+            "white and yellow color",
+            "pieces of egg white and yolk visible",
+            "garnishes on top"
+        ],
+        "31": [],
+        "32": [
+            "boiled or steamed",
+            "thicker wrapper",
+            " Variable size",
+            " Various shapes",
+            "small and rounded",
+            "various fillings and wrappings",
+            "no visible legs or wings"
+        ],
+        "33": [],
+        "34": [
+            "round, yellow egg yolks",
+            "white, toasted english muffin",
+            "ham or bacon slices",
+            " hollandaise sauce"
+        ],
+        "35": [
+            "shell",
+            "typically brownish color",
+            "snail shape"
+        ],
+        "36": [
+            "deep-fried ball-shaped",
+            "greenery on top",
+            "pita bread or wrap",
+            "often served with tahini sauce"
+        ],
+        "37": [
+            "thick slice",
+            "uniform color",
+            "grilled or cooked appearance",
+            "no raw interior visible"
+        ],
+        "38": [
+            "fried fish fillet shape",
+            "golden brown color",
+            "Chunks of fish",
+            "fries or chips on the side",
+            "fried fish fillet",
+            "batter on the fish"
+        ],
+        "39": [
+            "smooth and creamy texture",
+            "pinkish-white color",
+            "irregular shape",
+            "often served sliced",
+            "garnishes such as fruits or nuts",
+            "round or oval shape",
+            "smooth and shiny surface",
+            "pale pink or white color",
+            "luxurious garnish or plate presentation"
+        ],
+        "40": [],
+        "41": [],
+        "42": [
+            "thick slices",
+            "often rectangular or square in shape",
+            "topped with fruit, syrup, or powdered sugar",
+            "Typically golden brown in color"
+        ],
+        "43": [
+            "ring or curl shape",
+            "crunchy or breaded exterior",
+            "white or light-colored interior",
+            "tentacle-like ends"
+        ],
+        "44": [],
+        "45": [],
+        "46": [
+            "long and rectangular shape",
+            "golden-brown color overall",
+            "crusty texture",
+            "often served in slices",
+            "crusty surface",
+            "golden brown color",
+            "garlic pieces or butter on top"
+        ],
+        "47": [
+            "small, dumpling-like shape",
+            "usually white or off-white",
+            "individual units separated",
+            "may have sauce or topping"
+        ],
+        "48": [],
+        "49": [
+            "two slices of bread",
+            "melted cheese",
+            "flat shape",
+            "no patty"
+        ],
+        "50": [
+            "pinkish-red color",
+            "flaky texture",
+            "grill marks"
+        ],
+        "51": [
+            "green color",
+            "mushy texture",
+            "avocado chunks",
+            "no leafy greens"
+        ],
+        "52": [
+            "pan-fried bottom",
+            "thin wrapper",
+            " Typically small and bite-sized",
+            "Folded into a half-moon shape"
+        ],
+        "53": [
+            "beef patty",
+            "bun with sesame seeds",
+            "vegetable toppings",
+            "round shape"
+        ],
+        "54": [
+            "broth-based",
+            "protein sources like mushrooms, tofu, or eggs",
+            "green onions as garnish",
+            "Asian-style bowl or spoon"
+        ],
+        "55": [],
+        "56": [
+            "fried eggs",
+            "tortillas",
+            "red or green sauce",
+            "often served with beans or cheese",
+            "fried eggs on top",
+            "tortillas underneath",
+            "salsa, cheese, and sour cream as toppings",
+            "Latin-inspired plateware",
+            "tortilla",
+            "red sauce or salsa",
+            "melted cheese",
+            "plated with garnishes like cilantro or scallions",
+            "tortillas as base",
+            "no cheese on top",
+            "two separate eggs",
+            "tortilla underneath",
+            "sauce on top",
+            "garnishes like cheese, beans, or avocado"
+        ],
+        "57": [
+            "bowl or plate shape",
+            "brown or beige color",
+            "smooth texture",
+            "pita chips or vegetables on top",
+            "cream-colored",
+            "bowl-shaped container"
+        ],
+        "58": [
+            "scoop shape",
+            "colorful toppings",
+            "cone or bowl container",
+            "smooth texture"
+        ],
+        "59": [
+            "layered structure",
+            "wide and flat shape",
+            " Cheese melted on top",
+            "rectangular or square shape",
+            "noodles visible",
+            "cheese and sauce blended",
+            "edges flat and straight"
+        ],
+        "60": [
+            "red or orange color",
+            "smooth texture",
+            "no visible chunks of lobster",
+            "optional creme or foam on top"
+        ],
+        "61": [],
+        "62": [
+            "pasta shape",
+            "cheese sauce",
+            "baked or golden brown color",
+            "uniform texture"
+        ],
+        "63": [
+            "round flat shape",
+            "smooth surface",
+            "bright colors",
+            "small size",
+            "distinctive 'foot' at the bottom"
+        ],
+        "64": [
+            "thin dashi broth",
+            " Wakame seaweed",
+            "green onions on top"
+        ],
+        "65": [],
+        "66": [
+            "triangular or rectangular tortilla chips",
+            "melted cheese",
+            "assorted toppings such as jalapenos, beans, and salsa"
+        ],
+        "67": [
+            "yellow-white color",
+            "Folded or rolled shape",
+            "Fillings like vegetables or cheese visible",
+            "Savory appearance",
+            "folded in multiple layers",
+            "fillings visible through the folds",
+            "oval or round shape",
+            "single unit"
+        ],
+        "68": [],
+        "69": [],
+        "70": [],
+        "71": [],
+        "72": [
+            "thick and round",
+            "browned surface",
+            "can have toppings such as butter, syrup, fruit, or whipped cream"
+        ],
+        "73": [],
+        "74": [
+            "whole roasted bird",
+            "glazed skin",
+            "visible legs and wings"
+        ],
+        "75": [
+            "noodle soup",
+            "beef or chicken broth",
+            "long, thin noodles",
+            "herbs and garnishes"
+        ],
+        "76": [
+            "circular shape",
+            "thin crust",
+            " Cheese on top",
+            "toppings spread evenly",
+            "crust edges curled up"
+        ],
+        "77": [
+            "reddish-pink color",
+            "marbled fat",
+            "rectangular shape",
+            "browning around edges"
+        ],
+        "78": [],
+        "79": [
+            "longer bones",
+            "more marbling",
+            "thicker cuts",
+            "more fat content",
+            "straighter shape",
+            "thick cut",
+            "brown crust on the outside",
+            "red or pink interior",
+            "visible marbling",
+            "roasted or grilled appearance",
+            "thinner and more irregular in shape",
+            "less marbling",
+            "cut from rib section only",
+            "multiple bones or a large bone in the meat"
+        ],
+        "80": [
+            "soft bun",
+            "shredded meat",
+            "bbq sauce",
+            "toppings like coleslaw or pickles"
+        ],
+        "81": [
+            "thick white noodles",
+            "vegetables and meat slices on top",
+            "rich savory broth"
+        ],
+        "82": [
+            "pouch-like shape",
+            "typically served in a broth or with a sauce",
+            "individual pieces",
+            "pasta dough wrapper",
+            "square or circular shape",
+            "filled with meat or cheese",
+            "smooth surface"
+        ],
+        "83": [
+            "distinctive red or reddish-brown color",
+            "cream cheese frosting",
+            "usually a large, layered cake"
+        ],
+        "84": [],
+        "85": [
+            "triangular or half-moon shape",
+            "thick outer crust",
+            "crimped edges",
+            "spicy or spiced filling",
+            "fried or baked"
+        ],
+        "86": [
+            "raw fish",
+            "sliced into thin pieces",
+            "often served with soy sauce and wasabi",
+            "cold temperature",
+            "usually on a plate or dish with a Japanese style"
+        ],
+        "87": [
+            "fan-shaped shell",
+            "pale-colored flesh",
+            "delicate texture",
+            "symmetrical shape"
+        ],
+        "88": [
+            "greenish color",
+            "wavy or curly shape",
+            "vegetable-like texture",
+            "presence of seaweed strands"
+        ],
+        "89": [],
+        "90": [
+            "red-brown color",
+            "thick meat-based sauce",
+            "no visible eggs"
+        ],
+        "91": [
+            "white patches or streaks of eggs",
+            "visibility of bacon or pancetta",
+            "light color",
+            "thin sauce"
+        ],
+        "92": [
+            "cylindrical shape",
+            "thin, translucent wrapper",
+            "vegetable or meat filling",
+            "steamed or deep-fried",
+            "wrapping paper or dough",
+            "various fillings",
+            "fried or fresh",
+            "wrapped in thin dough",
+            "various fillings like vegetables or meat",
+            "deep-fried or steamed"
+        ],
+        "93": [
+            "thicker and more uniform in shape",
+            "more marbling (fat distribution)",
+            "cut from short loin or rib section",
+            "single piece of meat"
+        ],
+        "94": [
+            "layers of shortcake and whipped cream",
+            "strawberries on top",
+            "square or rectangular shape"
+        ],
+        "95": [],
+        "96": [
+            "multiple tortillas",
+            "separate fillings",
+            "visible toppings such as lettuce, tomatoes, sour cream"
+        ],
+        "97": [],
+        "98": [
+            "coffee or cocoa powder on top",
+            "layers of ladyfingers",
+            "creamy white color",
+            "rectangular shape"
+        ],
+        "99": [
+            "smaller pieces of fish",
+            "raw egg yolk",
+            "capers",
+            " toast or crackers on the side",
+            "raw fish",
+            "pinkish color",
+            "small cubical shape",
+            "garnish or herbs on top",
+            "usually served in a bowl or plate"
+        ],
+        "100": []
+    },
+    "index_to_classname": {
+        "0": "Apple pie",
+        "1": "Baby back ribs",
+        "2": "Baklava",
+        "3": "Beef carpaccio",
+        "4": "Beef tartare",
+        "5": "Beet salad",
+        "6": "Beignets",
+        "7": "Bibimbap",
+        "8": "Bread pudding",
+        "9": "Breakfast burrito",
+        "10": "Bruschetta",
+        "11": "Caesar salad",
+        "12": "Cannoli",
+        "13": "Caprese salad",
+        "14": "Carrot cake",
+        "15": "Ceviche",
+        "16": "Cheesecake",
+        "17": "Cheese plate",
+        "18": "Chicken curry",
+        "19": "Chicken quesadilla",
+        "20": "Chicken wings",
+        "21": "Chocolate cake",
+        "22": "Chocolate mousse",
+        "23": "Churros",
+        "24": "Clam chowder",
+        "25": "Club sandwich",
+        "26": "Crab cakes",
+        "27": "Creme brulee",
+        "28": "Croque madame",
+        "29": "Cup cakes",
+        "30": "Deviled eggs",
+        "31": "Donuts",
+        "32": "Dumplings",
+        "33": "Edamame",
+        "34": "Eggs benedict",
+        "35": "Escargots",
+        "36": "Falafel",
+        "37": "Filet mignon",
+        "38": "Fish and chips",
+        "39": "Foie gras",
+        "40": "French fries",
+        "41": "French onion soup",
+        "42": "French toast",
+        "43": "Fried calamari",
+        "44": "Fried rice",
+        "45": "Frozen yogurt",
+        "46": "Garlic bread",
+        "47": "Gnocchi",
+        "48": "Greek salad",
+        "49": "Grilled cheese sandwich",
+        "50": "Grilled salmon",
+        "51": "Guacamole",
+        "52": "Gyoza",
+        "53": "Hamburger",
+        "54": "Hot and sour soup",
+        "55": "Hot dog",
+        "56": "Huevos rancheros",
+        "57": "Hummus",
+        "58": "Ice cream",
+        "59": "Lasagna",
+        "60": "Lobster bisque",
+        "61": "Lobster roll sandwich",
+        "62": "Macaroni and cheese",
+        "63": "Macarons",
+        "64": "Miso soup",
+        "65": "Mussels",
+        "66": "Nachos",
+        "67": "Omelette",
+        "68": "Onion rings",
+        "69": "Oysters",
+        "70": "Pad thai",
+        "71": "Paella",
+        "72": "Pancakes",
+        "73": "Panna cotta",
+        "74": "Peking duck",
+        "75": "Pho",
+        "76": "Pizza",
+        "77": "Pork chop",
+        "78": "Poutine",
+        "79": "Prime rib",
+        "80": "Pulled pork sandwich",
+        "81": "Ramen",
+        "82": "Ravioli",
+        "83": "Red velvet cake",
+        "84": "Risotto",
+        "85": "Samosa",
+        "86": "Sashimi",
+        "87": "Scallops",
+        "88": "Seaweed salad",
+        "89": "Shrimp and grits",
+        "90": "Spaghetti bolognese",
+        "91": "Spaghetti carbonara",
+        "92": "Spring rolls",
+        "93": "Steak",
+        "94": "Strawberry shortcake",
+        "95": "Sushi",
+        "96": "Tacos",
+        "97": "Takoyaki",
+        "98": "Tiramisu",
+        "99": "Tuna tartare",
+        "100": "Waffles"
+    }
+}
