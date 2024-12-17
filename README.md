@@ -154,3 +154,5 @@ If you use this codebase or otherwise found our work valuable, please cite our p
 - [x] **[17.12.2024]** add valid arXiv link and bibtex.
 - [x] **[03.12.2024]** supported all datasets and tested with the env specified.
 - [x] **[27.11.2024]** set up the repo.
+- [ ] **[TBD]** Support ViT-L Backone
+- [ ] **[TBD]** Pytorch Dataloader for Image Embeddings
