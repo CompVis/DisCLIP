@@ -35,6 +35,7 @@ Results were obtained using `Ubuntu 22.04.5 LTS`, `Cuda 11.8`, and `Python 3.10.
 Install the necessary dependencies manually via
 ```bash
 conda create -n <choose_name> python=3.10.14
+conda activate <choose_name>
 pip install torch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cu118
 pip install tqdm
 pip install torchmetrics
