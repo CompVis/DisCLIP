@@ -12,7 +12,7 @@
 
 </p>
 <p align="center">
-    <a href=" ">
+    <a href="https://arxiv.org/abs/2412.11917">
         <img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper">
     </a>
 </p>
@@ -139,10 +139,17 @@ Our evaluation demonstrates that the proposed method significantly outperforms b
 If you use this codebase or otherwise found our work valuable, please cite our paper:
 
 ```bibtex
-TBD
+@misc{ma2024does,
+    title={Does VLM Classification Benefit from LLM Description Semantics?},
+    author={Pingchuan Ma and Lennart Rietdorf and Dmytro Kotovenko and Vincent Tao Hu and Björn Ommer},
+    year={2024},
+    eprint={2412.11917},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ```
 
 ## 🔥 Updates and Backlogs
-- [ ] add valid arXiv link and bibtex.
+- [x] **[17.12.2024]** add valid arXiv link and bibtex.
 - [x] **[03.12.2024]** supported all datasets and tested with the env specified.
 - [x] **[27.11.2024]** set up the repo.
