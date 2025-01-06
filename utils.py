@@ -130,13 +130,13 @@ def generate_embed_ds(run_params,device,batch_size):
         ds_train, ds_test = CUBDataset(root,train=True),CUBDataset(root,train=False)
     if run_params['dataset']=='ilsvrc':
         root = os.path.join(root,'ilsvrc')
-        ds_train, ds_test = ImageNet(root=root,split='train'),ImageNet(root=root,split='val')
+        ds_train, ds_test = None,None#ImageNet(root=root,split='train'),ImageNet(root=root,split='val')
     if run_params['dataset']=='imagenet_v2':
         train_root = os.path.join(root,'ilsvrc')
         test_root = os.path.join(root,'imagenet_v2')
         if not os.path.exists(test_root):
             os.makedirs(test_root)
-        ds_train, ds_test = ImageNet(root=train_root,split='train'),ImageNetV2Dataset(location=test_root)
+        ds_train, ds_test = None,ImageNetV2Dataset(location=test_root)#ImageNet(root=train_root,split='train'),ImageNetV2Dataset(location=test_root)
     if run_params['dataset']=='flowers':
         ds_train, ds_test = Flowers102(root=root,split='train',download=True),Flowers102(root=root,split='test',download=True)
     if run_params['dataset']=='places':
@@ -155,27 +155,27 @@ def generate_embed_ds(run_params,device,batch_size):
         datasets = {'train':ds_train}
     
     if run_params['dataset'] == 'ilsvrc':
-        imagenet_v2_train_path = os.path.join('.','image_embeddings','imagenet_v2_embeds','train')
+        imagenet_v2_train_path =  os.path.join('.','image_embeddings','imagenet_v2','train','openai',run_params['backbone'],run_params['patch_size'])
         #create symlink of imagenet training ds embeddings if already embedded for ImageNetV2
         if os.path.exists(imagenet_v2_train_path):
             datasets = {'test':ds_test}
-            imagenet_path = os.path.join('.','image_embeddings','ilsvrc_embeds')
+            imagenet_path = os.path.join('.','image_embeddings','ilsvrc','train','openai',run_params['backbone'])
             if not os.path.exists(imagenet_path):
                 os.makedirs(imagenet_path)
-            imagenet_train_path = os.path.join(imagenet_path,'train')
-            if not os.path.exists(imagenet_train_path):
+            imagenet_train_path = os.path.join(imagenet_path,run_params['patch_size'])
+            if not os.path.exists(os.path.join(imagenet_train_path,'_labels')):
                 os.symlink(os.path.abspath(imagenet_v2_train_path),os.path.abspath(imagenet_train_path),target_is_directory = True)
 
     if run_params['dataset'] == 'imagenet_v2':
-        imagenet_train_path = os.path.join('.','image_embeddings','ilsvrc_embeds','train')
+        imagenet_train_path = os.path.join('.','image_embeddings','ilsvrc','train','openai',run_params['backbone'],run_params['patch_size'])
         #create symlink of imagenet training ds embeddings if already embedded for ImageNet
         if os.path.exists(imagenet_train_path):
             datasets = {'test':ds_test}
-            imagenet_v2_path = os.path.join('.','image_embeddings','imagenet_v2_embeds')
+            imagenet_v2_path = os.path.join('.','image_embeddings','imagenet_v2','train','openai',run_params['backbone'])
             if not os.path.exists(imagenet_v2_path):
                 os.makedirs(imagenet_v2_path)
-            imagenet_v2_train_path = os.path.join(imagenet_v2_path,'train')
-            if not os.path.exists(imagenet_v2_train_path):
+            imagenet_v2_train_path = os.path.join(imagenet_v2_path,run_params['patch_size'])
+            if not os.path.exists(os.path.join(imagenet_v2_train_path,'_labels')):
                 os.symlink(os.path.abspath(imagenet_train_path),os.path.abspath(imagenet_v2_train_path),target_is_directory = True)
 
     for split,ds in tqdm(datasets.items(),desc='Encoding images: iterating through ds partitions'):
