@@ -73,11 +73,14 @@ class Embedding_Dataset(Dataset):
 
 
 def create_embed_ds_0(run_params,ds,split,device,batch_size):
-    model, preprocess = clip.load('ViT-B/32', device=device)
+    model, preprocess = clip.load(f'{run_params["backbone"]}/{run_params["patch_size"]}', device=device)
     model.eval()
-    save_path = os.path.join('.','image_embeddings',f'{run_params["dataset"]}_embeds/{split}')
+    match split:
+        case 'test':
+            save_path = run_params['test_path']
+        case 'train':
+            save_path = run_params['train_path']
     os.makedirs(save_path,exist_ok=True)
-
     features = []
     labels = []
     batch_acc = []
@@ -104,9 +107,8 @@ def create_embed_ds_0(run_params,ds,split,device,batch_size):
 
 
 def load_embedding_datasets(run_params):
-    embed_ds_dir = os.path.join('.','image_embeddings',f'{run_params["dataset"]}_embeds')
-    embed_ds_dir_train = os.path.join(embed_ds_dir,'train')
-    embed_ds_dir_test = os.path.join(embed_ds_dir,'test')
+    embed_ds_dir_train = run_params['train_path']
+    embed_ds_dir_test = run_params['test_path']
     
     if run_params['dataset']=='eurosat':
         embed_ds_dir_test = embed_ds_dir_train
@@ -278,7 +280,7 @@ def get_classwise_cls_description_texts_from_mask_tensor(mask_tensor,sentence_pa
     return cls_description_texts_acc_classwise
 
 def load_vision_language_model(run_params):
-    model, preprocess = clip.load('ViT-B/32',device=run_params['encoding_device'])
+    model, preprocess = clip.load(f'{run_params["backbone"]}/{run_params["patch_size"]}',device=run_params['encoding_device'])
     model.eval()
     model.requires_grad_(False)
     return model, preprocess

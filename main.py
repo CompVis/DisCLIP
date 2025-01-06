@@ -15,7 +15,9 @@ import argparse
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', type=str, help="choose dataset from following strings: ['flowers','dtd','places','eurosat','food','pets','ilsvrc','imagenet_v2']", default='flowers')
+    parser.add_argument('--backbone', type=str, help="choose backbone from following strings: ['b32','b16','l14','l14@336px']", default='b32')
     parser.add_argument('--pool', type=str, help="choose description pool from following strings: ['dclip','con_llama']", default='dclip')
     parser.add_argument('--encoding_device', type=int, help="Cuda ID to encode images and texts", default=0)
     parser.add_argument('--calculation_device', type=int, help="Cuda ID to perform evaluation", default=1)
@@ -32,6 +34,21 @@ if __name__=='__main__':
     
     assert run_params['dataset'] in ['flowers','dtd','places','eurosat','food','pets','cub','ilsvrc','imagenet_v2']
     assert run_params['pool'] in ['dclip','con_llama']
+    assert run_params['backbone'] in ['b32','b16','l14','l14@336px']
+    
+    match run_params['backbone']:
+        case 'b32':
+            run_params['backbone'] = 'ViT-B'
+            run_params['patch_size'] = '32'
+        case 'b16':
+            run_params['backbone'] = 'ViT-B'
+            run_params['patch_size'] = '16'
+        case 'l14':
+            run_params['backbone'] = 'ViT-L'
+            run_params['patch_size'] = '14'
+        case 'l14@336px':
+            run_params['backbone'] = 'ViT-L'
+            run_params['patch_size'] = '14@336px'
     
     ##setup evaluation save paths and datasets##
     if not os.path.exists(run_params['eval_path']):
@@ -43,7 +60,11 @@ if __name__=='__main__':
     os.mkdir(eval_path)
     run_params['eval_path']=eval_path
 
-    if not os.path.exists(os.path.join('.','image_embeddings',f'{run_params["dataset"]}_embeds')):
+    train_path = os.path.join('.','image_embeddings',run_params['dataset'],'train','openai',run_params['backbone'],run_params['patch_size'])
+    run_params['train_path'] = train_path
+    test_path = os.path.join('.','image_embeddings',run_params['dataset'],'test','openai',run_params['backbone'],run_params['patch_size'])
+    run_params['test_path'] = test_path
+    if not os.path.exists(train_path) or not os.path.exists(test_path):
         generate_embed_ds(run_params,run_params['calculation_device'],run_params['batch_size'])
 
     if not os.path.exists(run_params['descriptions_save_path']):
@@ -141,11 +162,12 @@ if __name__=='__main__':
     eval_cls_ful_des_plus_cls_less_des_classwise(caption_encodings,description_encodings,LLM_assignment_mask,class_indices_str,run_params,'LLM_assignment',global_eval_image_encodings,global_eval_labels)
     eval_cls_ful_des_plus_cls_less_des_classwise(caption_encodings,description_encodings,random_assignment_mask,class_indices_str,run_params,'random_assignment',global_eval_image_encodings,global_eval_labels)
 
-    #ToDO: Put instructive print statements here, or use tqdm etc
+    print('Getting encodings of classwise description assignments (randomly assigned and LLM assigned)')
     LLM_cls_description_texts_dict = get_classwise_cls_description_texts_from_mask_tensor(LLM_assignment_masks_acc,sentence_pattern_cls_plus_des,index_to_classname,description_texts_gs)
     random_cls_description_texts_dict = get_classwise_cls_description_texts_from_mask_tensor(random_assignment_masks_acc,sentence_pattern_cls_plus_des,index_to_classname,description_texts_gs)
     LLM_cls_description_embeddings_dict = {key: get_text_encoding_tensor_from_list(vlm,value,run_params['encoding_device'],run_params['batch_size']).to(run_params['calculation_device']) for key,value in tqdm.tqdm(LLM_cls_description_texts_dict.items())}
     random_cls_description_embeddings_dict = {key: get_text_encoding_tensor_from_list(vlm,value,run_params['encoding_device'],run_params['batch_size']).to(run_params['calculation_device']) for key,value in tqdm.tqdm(random_cls_description_texts_dict.items())}
 
+    print('Evaluating classwise assignments')
     eval_cls_ful_descriptions_classwise(LLM_cls_description_embeddings_dict,global_eval_image_encodings,global_eval_labels,run_params,class_indices_str,'LLM_assignment')
     eval_cls_ful_descriptions_classwise(random_cls_description_embeddings_dict,global_eval_image_encodings,global_eval_labels,run_params,class_indices_str,'random_assignment')
