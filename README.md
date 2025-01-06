@@ -129,6 +129,15 @@ Select the cuda ID as an integer for encoding of images and texts; ID for evalua
 
 **Default:** 0 and 1
 
+`--backbone`
+Select the openai ViT CLIP backbone. Available options are:
+- **b32**
+- **b16**
+- **l14**
+- **l14@336px**
+
+**Default:** `b32`
+
 
 ## 📈 Results
 Our evaluation demonstrates that the proposed method significantly outperforms baselines in the classname-free setup, minimizing artificial gains from the ensembling effect. Additionally, we show that these improvements transfer to the conventional evaluation setup, achieving competitive results with substantially fewer descriptions required, while offering better interpretability.
@@ -154,5 +163,5 @@ If you use this codebase or otherwise found our work valuable, please cite our p
 - [x] **[17.12.2024]** add valid arXiv link and bibtex.
 - [x] **[03.12.2024]** supported all datasets and tested with the env specified.
 - [x] **[27.11.2024]** set up the repo.
-- [ ] **[TBD]** Support ViT-L Backone
+- [x] **[TBD]** Support ViT-L Backone
 - [ ] **[TBD]** Pytorch Dataloader for Image Embeddings
