@@ -149,19 +149,13 @@ Our evaluation demonstrates that the proposed method significantly outperforms b
 If you use this codebase or otherwise found our work valuable, please cite our paper:
 
 ```bibtex
-@misc{ma2024does,
-    title={Does VLM Classification Benefit from LLM Description Semantics?},
-    author={Pingchuan Ma and Lennart Rietdorf and Dmytro Kotovenko and Vincent Tao Hu and Björn Ommer},
-    year={2024},
-    eprint={2412.11917},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@inproceedings{ma2025does,
+  title={Does VLM Classification Benefit from LLM Description Semantics?},
+  author={Ma, Pingchuan and Rietdorf, Lennart and Kotovenko, Dmytro and Hu, Vincent Tao and Ommer, Bj{\"o}rn},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={6},
+  pages={5973--5981},
+  year={2025}
 }
 ```
-
-## 🔥 Updates and Backlogs
-- [x] **[17.12.2024]** add valid arXiv link and bibtex.
-- [x] **[03.12.2024]** supported all datasets and tested with the env specified.
-- [x] **[27.11.2024]** set up the repo.
-- [x] **[TBD]** Support ViT-L Backone
-- [ ] **[TBD]** Pytorch Dataloader for Image Embeddings
